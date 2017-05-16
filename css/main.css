@@ -1,11 +1,27 @@
 body {
 	text-align:center;
-/*	background: url("../images/background.jpg");*/
-
+	background: url("../images/background.jpg");
+	background-size: 100%;
 }
 
-#comment {
-	width: 400px;
-
+.container {
+	margin-top: 100px;
 }
 
+h1 {
+	color: #28170D;
+	font-family: 'Barrio', cursive;
+}
+
+input, textarea {
+	border-radius: 5px;
+}
+
+button {
+	cursor: pointer;
+}
+
+p, h3 {
+	font-size: 20px;
+	
+}
